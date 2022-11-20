@@ -4,7 +4,9 @@
   "description": "api of css-to-js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/yihuaxiang/css-to-jss/issues"
   },
-  "homepage": "https://github.com/yihuaxiang/css-to-jss#readme"
+  "homepage": "https://github.com/yihuaxiang/css-to-jss#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "postcss": "^8.4.19",
+    "postcss-js": "^4.0.0"
+  }
 }
