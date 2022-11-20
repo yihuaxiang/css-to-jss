@@ -7,7 +7,7 @@ app.use(async ctx => {
   if(styleQuery) {
     ctx.body = toJSS(styleQuery);
   } else {
-    ctx.body = '请输入 style 参数'
+    ctx.body = {error: '请输入 style 参数'}
   }
 });
 

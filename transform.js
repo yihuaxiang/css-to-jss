@@ -11,7 +11,7 @@ module.exports = {
     try {
       return JSON.stringify(toJSSObject(cssText), null, 2);
     } catch (e) {
-      return "Error translating CSS to JSS";
+      return {error: "Error translating CSS to JSS"};
     }
   }
 }
